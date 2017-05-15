@@ -1,3 +1,15 @@
+$(document).ready(function () {
+    console.log($(window).scrollTop());
+    $(window).scroll(function () {
+        if($(window).scrollTop() > 300){
+            $('#nav_bar').addClass('navbar-fixed-top');
+        }
+        if($(window).scrollTop() < 300){
+            $('#nav_bar').removeClass('navbar-fixed-top');
+        }
+    });
+});
+
 function compararData(){
     moment.locale('pt-BR');
     var date = moment().subtract(28, 'days').format('L');
