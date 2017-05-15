@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>CTEP Home</title>
+        <script src="js/jquery-1.12.4.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/moment.js"></script>
+    </head>
+    <body onload="compararData()">
+
+        <div id="menu">
+            <header class="bgimage hidden-xs"></header>
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a href="#" class="navbar-brand">CTEP</a>
+                        <button class="navbar-toggle" data-toggle="collapse" data-target="#collapsemenu">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="collapsemenu">
+                        <ul class="nav navbar-nav navbar-right" >
+                            <li>
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#"> <span class="glyphicon glyphicon-book"></span> Cursos <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="pages/enfermagem.html">Técnico de Enfermagem</a></li>
+                                    <li><a href="pages/instrumentacao.html">Instrumentação Cirúrgica</a></li>
+                                    <li><a href="pages/livres.html">Cursos Livres</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="pages/fotos.html"> <span class="glyphicon glyphicon-picture"></span> Galeria de Fotos</a></li>
+                            <li><a href="pages/contato.html"><span class="glyphicon glyphicon-phone"></span> Contatos</a></li>
+                            <li><a href="pages/mapa.html"><span class="glyphicon glyphicon-globe"></span> Mapas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div id="corpo-home" class="container">
+            <div class="jumbotron">
+                <h3>Quem Somos</h3>
+            </div>
+            <h5 class="text-justify">Somos uma instituição de ensino preocupada com o futuro do nosso país. Buscamos formar profissionais competentes em suas áreas
+            e temos o compromisso de oferecer o melhor ensino para nossos alunos<br><br>
+            Fundado em 2014 o Curso CTEP surgiu a partir do sonho de uma educadora de formar profissionais capazes na área da saúde.</h5>
+            <hr>
+            <div class="jumbotron">
+                <h3>Calendário de Turmas</h3>
+            </div>
+            <table class="table table-bordered table-responsive table-striped">
+                <thead>
+                    <tr>
+                        <th>Curso</th>
+                        <th>Dia(s) da semana</th>
+                        <th>Data de início</th>
+                        <th>Disponível para matrícula</th>
+                    </tr>
+                </thead>
+                <tbody id="turmas">
+                    <tr>
+                        <td>Especialização em Instrumentação Cirúrgica</td>
+                        <td>Sábado de 8:00 às 12:00</td>
+                        <td>21/01/2017</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Técnico de Enfermagem</td>
+                        <td>Sábado de 8:00 às 13:00</td>
+                        <td>04/02/2017</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Especialização em Instrumentação Cirúrgica</td>
+                        <td>Terça de 9:00 às 13:00</td>
+                        <td>14/02/2017</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Especialização em Instrumentação Cirúrgica</td>
+                        <td>Quinta de 14:00 às 18:00</td>
+                        <td>23/03/2017</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Técnico de Enfermagem</td>
+                        <td>Quarta e Sexta de 9:00 às 12:00</td>
+                        <td>19/04/2017</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Especialização em Instrumentação Cirúrgica</td>
+                        <td>Quarta de 17:00 às 21:00</td>
+                        <td>19/04/2017</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Especialização em Instrumentação Cirúrgica</td>
+                        <td>Quarta de 9:00 às 13:00</td>
+                        <td>31/05/2017</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="rodape">
+            <footer class="footer">
+                <div class="col-md-6">
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcurso.ctep%2F&tabs&width=340&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=445999865740002" width="340" height="214" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
+                <div class="col-md-3">
+                    <h4>Quem Somos</h4>
+                    <h5 class="text-justify">Somos uma instituição de ensino preocupada com o futuro do nosso país. Buscamos formar profissionais competentes em suas áreas
+                        e temos o compromisso de oferecer o melhor ensino para nossos alunos<br><br>
+                        Fundado em 2014 o Curso CTEP surgiu a partir do sonho de uma educadora de formar profissionais capazes na área da saúde.</h5>
+                </div>
+                <div class="col-md-3">
+                    <h4>Contato</h4>
+                    <h5><span class="glyphicon glyphicon-earphone"></span> (21) 2242-4296</h5>
+                    <h5><span class="glyphicon glyphicon-phone"></span> (21) 98884-5406</h5>
+                    <h5><span class="glyphicon glyphicon-envelope"></span> ctep.curso@gmail.com</h5>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

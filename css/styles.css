@@ -1,0 +1,51 @@
+.bgimage {
+    background-image: url('../images/capa.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+}
+body{
+    background-color: #E0FFFF;;
+}
+.jumbotron{
+    background-color: #204d74;
+    color: white;
+    padding: 1px 0px 10px 0px;
+}
+
+
+/* ---------------------------------------------------- */
+
+.navbar {
+    margin-bottom: 20px;
+    border-width: 0px;
+    background-color: #DCDCDC;
+}
+/* ---------------------------------------------------- */
+
+.media img {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 15px;
+}
+
+
+/* ---------------------------------------------------- */
+@media (min-width: 992px) {
+    .footer{
+        height: 280px;
+    }
+}
+
+
+/* ---------------------------------------------------- */
+
+.footer {
+    margin-top: 20px;
+    background-color: #DCDCDC;
+    padding: 30px;
+}
+
+
+
+
